@@ -2,30 +2,37 @@
 
 English | [中文](README_CN.md)
 
-Bridge Copilot-adjacent workflows into a Claude Code-friendly adapter layer.
+> Copilot-oriented adapter scaffold for the `everything-agent-cli-to-claude-code` ecosystem.
 
-## Goal
+## Repository Role
 
-This repository is the Copilot-specific implementation repo under:
+This repository exists to capture the future Copilot integration surface:
+
+- workflow assumptions
+- wrapper design
+- skill entrypoints
+
+Umbrella project:
 
 - <https://github.com/Harzva/everything-agent-cli-to-claude-code>
 
-It is intended to capture:
+## Current State
 
-- integration assumptions
-- workflow wrappers
-- skill entrypoints
+| Area | Status |
+| --- | --- |
+| Repo scaffold | ready |
+| Wrapper | placeholder |
+| Skills directory | ready |
+| Local command detection | not yet verified |
 
-## Current Scope
+## Included Today
 
-This first version is a scaffold with:
+- `bin/copilot-review.sh`
+- `docs/design.md`
+- `examples/review-prompt.txt`
+- `skills/usecli-copilot.md`
 
-- repository layout
-- design notes
-- placeholder wrapper
-- first-generation skill file
+## What This Means
 
-## Status
+This repo is initialized and ready for implementation, but it is still waiting on a confirmed local command surface.
 
-- repository status: prototype
-- wrapper status: placeholder
